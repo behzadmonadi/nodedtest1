@@ -482,46 +482,10 @@
                                 $inputImage.trigger('click');
                             });
 
-                            function sendCoverPhotos(photoId) {
-                                $.ajax({
-                                    url: '/my-profile/photo/set-cover-photo',
-                                    type: 'POST',
-                                    data: {
-                                        'photoId': photoId
-                                    },
-                                    success: function (data, status, xhr) {
-                                        console.log(data);
-                                        if('ok' == data) {
-                                            location.reload();
-                                        }
-                                    },
-                                    error: function (data, status, xhr) {
-                                        console.log(data);
-                                        alert('Sorry ! Some problem happened. please try again !');
-                                    }
-                                });
-                            }
+                           
+                       
 
-                            function sendProfilePhotos(photoId) {
-                                $.ajax({
-                                    url: '/my-profile/photo/set-profile-photo',
-                                    type: 'POST',
-                                    data: {
-                                        'photoId': photoId
-                                    },
-                                    success: function (data, status, xhr) {
-                                        console.log(data);
-                                        if('ok' == data) {
-                                            location.reload();
-                                        }
-                                    },
-                                    error: function (data, status, xhr) {
-                                        console.log(data);
-                                        alert('Sorry ! Some problem happened. please try again !');
-                                    }
-                                });
-                            }
-
+                        
                             function sendDeletePhotos(photoIds) {
                                 $.ajax({
                                     url: '/my-profile/photo/delete',
