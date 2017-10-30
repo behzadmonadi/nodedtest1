@@ -3,4 +3,8 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
-  img(src='/images/1.jpg', alt='Italy', style='width:30%')
+  img#imgmm(src='/images/1.jpg', alt='Italy', style='width:30%')
+  input(type='button', value='ok my lo', onclick='$("#imgmm").css("display","none")' )
+
+
+

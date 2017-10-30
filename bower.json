@@ -1,0 +1,21 @@
+{
+  "name": "nodedtest1",
+  "description": "myapp",
+  "main": "app.js",
+  "authors": [
+    "behzadmonadi <behzad_monadi@yahoo.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/behzadmonadi/nodedtest1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1"
+  }
+}
