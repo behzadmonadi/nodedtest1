@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe43650e-6efe-4a41-8321-c2a84026e409" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index.jade" afterPath="$PROJECT_DIR$/views/index.jade" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -57,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
@@ -67,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.jade" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="109" lean-forward="false" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+            <state relative-caret-position="138">
+              <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
               <folding />
             </state>
           </provider>
@@ -129,8 +129,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/12.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/views/index.jade" />
       </list>
     </option>
   </component>
@@ -305,12 +305,12 @@
       <workItem from="1504385653935" duration="62000" />
       <workItem from="1504557228936" duration="1930000" />
       <workItem from="1505039233523" duration="1716000" />
-      <workItem from="1509369564211" duration="3550000" />
+      <workItem from="1509369564211" duration="3640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15696000" />
+    <option name="totallyTimeSpent" value="15786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="11" width="1382" height="744" extended-state="0" />
@@ -703,14 +703,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="109" lean-forward="false" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/12.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="989">
@@ -731,6 +723,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="80" lean-forward="false" selection-start-line="6" selection-start-column="80" selection-end-line="6" selection-end-column="80" />
           <folding />
         </state>
       </provider>
